@@ -10,7 +10,6 @@ f1 <- function(x) {
 ### Contact
 
 **Leonardo N. Ferreira**<br>
-@lnferreira<br>
 [ferreira@leonardonascimento.com](ferreira@leonardonascimento.com)<br>
 [www.leonardonascimento.com](www.leonardonascimento.com)
 
