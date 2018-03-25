@@ -1,7 +1,6 @@
 ## Time Series Clustering via Community Detection
 In this page you find the code used in the paper:
 
-
 ```R
 f1 <- function(x) {
 	x = x + 1
@@ -10,7 +9,7 @@ f1 <- function(x) {
 
 ### Contact
 
-**Leonardo N. Ferreira**<br>  
+**Leonardo N. Ferreira**<br>
 @lnferreira<br>
 [ferreira@leonardonascimento.com](ferreira@leonardonascimento.com)<br>
 [www.leonardonascimento.com](www.leonardonascimento.com)
