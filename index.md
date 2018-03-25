@@ -10,11 +10,11 @@ f1 <- function(x) {
 
 ### Contact
 
-**Leonardo N. Ferreira**  
-Gitbub: @lnferreira  
-:envelope: [ferreira@leonardonascimento.com](ferreira@leonardonascimento.com)  
+**Leonardo N. Ferreira**<br>  
+Gitbub: @lnferreira<br>
+:envelope: [ferreira@leonardonascimento.com](ferreira@leonardonascimento.com)<br>
 [www.leonardonascimento.com](www.leonardonascimento.com)
 
-**Zhao Liang**  
-:envelope: [zhao@usp.br](zhao@usp.br)  
+**Zhao Liang**<br>
+:envelope: [zhao@usp.br](zhao@usp.br)<br>
 [dcm.ffclrp.usp.br/~zhao/](dcm.ffclrp.usp.br/~zhao/)
