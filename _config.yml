@@ -1,0 +1,8 @@
+title: Time series clustering
+description: Code and extra information from the paper "Time Series Clustering via Community Detection in Networks"
+google_analytics: UA-18917131-1
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
