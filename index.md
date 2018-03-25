@@ -22,9 +22,13 @@ You can @mention a GitHub username to generate a link to their profile. The resu
 ### Contact
 
 **Leonardo N. Ferreira**
+
 [ferreira@leonardonascimento.com](ferreira@leonardonascimento.com)
+
 [www.leonardonascimento.com](www.leonardonascimento.com)
 
 **Zhao Liang**
+
 [zhao@usp.br](zhao@usp.br)
+
 [dcm.ffclrp.usp.br/~zhao/](dcm.ffclrp.usp.br/~zhao/)
