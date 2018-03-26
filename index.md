@@ -9,13 +9,15 @@ arXiv: [arxiv.org/abs/1508.04757](http://arxiv.org/abs/1508.04757)
 
 ### Code
 
-All the algorithms and experiments used in this paper were implemented using [R](https://www.r-project.org/). [Download](https://github.com/lnferreira/time_series_clustering_via_community_detection/zipball/gh-pages) the code and open the R folder. There are 2 files:
+All the algorithms and experiments used in this paper were implemented using [R](https://www.r-project.org/). [Download](https://github.com/lnferreira/time_series_clustering_via_community_detection/zipball/gh-pages) the code and open the R folder. There are 3 files:
 
 * R/
    * tsClustAlgs.R
-      - Used to run the clustering algorithms
+      - Clustering algorithms
    * tsDist.R 
       - Calculates distance between a set of time series
+   * run.R
+      - Example of how to use the code
       
 ### Bibtex
 
