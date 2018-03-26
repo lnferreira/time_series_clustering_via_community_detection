@@ -29,26 +29,6 @@ NUM_CORES = max(1, detectCores() - 1)
 #       cutat: If the community detection algorhtms is hierarchical, this value
 #           cuts the dendrogram to achieve the desired number of clusters. Default
 #           value is -1 (no cut).
-# Example:
-#       # Read dataset:
-#       ds = read.csv("dataset.csv")
-#       # Transform dataset into a list of time series (without class column)
-#       tsList = lapply(seq_len(nrow(ds[,-11])), function(i) ds[i,1:10])
-#       # Calculate distance matrix 
-#       dist = dist.parallel(tsList, distFunc=tsdiss.dtw, cores=1)
-#       # Dist normalization
-#       dist = dist.normalize(dist)
-#       # Time series clustering using community detections
-#       clustering = ts.community.detection(dist, 0.2, "eps")
-#       # Plot results: 
-#       dev.new(width=12, height=8)
-#       par(mfcol=c(1,2))
-#       matplot(t(ds[,-11]), t="o", col=ds[,11], pch=16, lty=1, xlab="x", ylab="y")
-#       net = net.epsilon.create(dist, 0.2)
-#       communities = cluster_louvain(net)
-#       plot(communities, net)
-#       print(clustering)
-# 
 # ================================================================================
 ts.community.detection <- function(dist, kOrEps, method=c("knn", "eps"), 
                                    communityDetectionFunc=cluster_louvain, cutat=-1){
@@ -90,7 +70,7 @@ net.epsilon.create <- function(dist, epsilon) {
 # ================================================================================
 # Traditional clustering algorithms
 # ================================================================================
-tsclust.traditiona.clust <- function(distMatrix, k, alg=c("agnes", "diana", "pam", "complete_linkage", "single_linkage", 
+tsclust.traditional.clust <- function(distMatrix, k, alg=c("agnes", "diana", "pam", "complete_linkage", "single_linkage", 
                                          "average_linkage", "median_linkage", "centroid_linkage", "dbscan")) {
     rand = NULL
     clustering = NULL
