@@ -1,11 +1,10 @@
-## Time Series Clustering via Community Detection
-In this page you find the code used in the paper:
-
-#### Time series clustering via community detection in networks<br>
+## Time Series Clustering via Community Detection in Networks<br>
 Leonardo N. Ferreira and Liang Zhao
 
-DOI: https://doi.org/10.1016/j.ins.2015.07.046  
-arXiv: http://arxiv.org/abs/1508.04757
+In this page you find the code used in the paper.
+
+DOI: [doi.org/10.1016/j.ins.2015.07.046](http://doi.org/10.1016/j.ins.2015.07.046)  
+arXiv: [arxiv.org/abs/1508.04757](http://arxiv.org/abs/1508.04757)
 
 ### Code
 
@@ -13,8 +12,10 @@ All the algorithms and experiments used in this paper were implemented using [R]
 
 * R/
    * tsClustAlgs.R
-   * tsdist.R
-
+      - Used to run the clustering algorithms
+   * tsDist.R 
+      - Calculates distance between a set of time series
+      
 ### Bibtex
 
 ```
@@ -33,6 +34,8 @@ keywords = "Time series data mining, Time series clustering, Complex networks, C
 ```
 
 ### Contact
+
+If you have questions or sugestions, send us an email:
 
 **Leonardo N. Ferreira**<br>
 [ferreira@leonardonascimento.com](ferreira@leonardonascimento.com)<br>
