@@ -1,6 +1,8 @@
 ## Time Series Clustering via Community Detection in Networks<br>
 Leonardo N. Ferreira and Liang Zhao
 
+![Time Series Clusteing with networks](figs/ts_clust.jpg)
+
 In this page you find the code used in the paper.  
 DOI: [doi.org/10.1016/j.ins.2015.07.046](http://doi.org/10.1016/j.ins.2015.07.046)  
 arXiv: [arxiv.org/abs/1508.04757](http://arxiv.org/abs/1508.04757)
