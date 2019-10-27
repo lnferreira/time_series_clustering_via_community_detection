@@ -22,7 +22,7 @@ All the algorithms and experiments used in this paper were implemented using [R]
       
 ### Bibtex
 
-If you used your code, please cite our paper.
+If you used this code, please cite our paper.
 
 ```
 @article{ferreira16,
