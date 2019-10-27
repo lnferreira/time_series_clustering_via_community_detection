@@ -22,18 +22,20 @@ All the algorithms and experiments used in this paper were implemented using [R]
       
 ### Bibtex
 
+If you used your code, please cite our paper.
+
 ```
 @article{ferreira16,
-title = "Time series clustering via community detection in networks",
-journal = "Information Sciences",
-volume = "326",
-pages = "227 - 242",
-year = "2016",
-issn = "0020-0255",
-doi = "https://doi.org/10.1016/j.ins.2015.07.046",
-url = "http://www.sciencedirect.com/science/article/pii/S002002551500554X",
-author = "Leonardo N. Ferreira and Liang Zhao",
-keywords = "Time series data mining, Time series clustering, Complex networks, Community detection"
+  title = "Time series clustering via community detection in networks",
+  journal = "Information Sciences",
+  volume = "326",
+  pages = "227 - 242",
+  year = "2016",
+  issn = "0020-0255",
+  doi = "https://doi.org/10.1016/j.ins.2015.07.046",
+  url = "http://www.sciencedirect.com/science/article/pii/S002002551500554X",
+  author = "Leonardo N. Ferreira and Liang Zhao",
+  keywords = "Time series data mining, Time series clustering, Complex networks, Community detection"
 }
 ```
 
